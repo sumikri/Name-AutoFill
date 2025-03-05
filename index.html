@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English to Hindi Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>English to Hindi Converter</h1>
+    <div class="converter">
+      <div class="input-group">
+        <label for="english-text">English</label>
+        <textarea 
+          id="english-text" 
+          placeholder="Type in English..."
+          autofocus
+        ></textarea>
+      </div>
+      <div class="arrow">→</div>
+      <div class="input-group">
+        <label for="hindi-text">Hindi</label>
+        <textarea 
+          id="hindi-text" 
+          placeholder="हिंदी अनुवाद यहां दिखाई देगा..."
+          readonly
+        ></textarea>
+      </div>
+    </div>
+    <div class="status" id="status"></div>
+    <div class="instructions">
+      <h3>Instructions:</h3>
+      <ul>
+        <li>Type English text in the left box</li>
+        <li>See the Hindi translation appear automatically in the right box</li>
+        <li>For best results, complete words or phrases before translation begins</li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
